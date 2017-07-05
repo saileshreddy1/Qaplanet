@@ -1,0 +1,11 @@
+<suite name="Window handle">
+<test name="Multiple windows">
+<packages>
+<package name="multipleWindowHandle"/>
+</packages>
+</test>
+</suite>
+
+
+
+

@@ -1,0 +1,8 @@
+<suite name="Hrm project">
+<test name="window Handle">
+<classes>
+<class name="multipleWindowHandle.WindowHandle"/>
+<class name="multipleWindowHandle.WindowHandling"/>
+</classes>
+</test>
+</suite>

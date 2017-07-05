@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHrm]">
+  <parameter name="strUserName" value="qaplanet1"/>
+  <parameter name="strURL" value="http://apps.qaplanet.in/qahrm/login.php"/>
+  <parameter name="strPassword" value="user1"/>
+  <test name="passing parameter(failed)">
+    <parameter name="strUserName" value="qaplanet1"/>
+    <parameter name="strURL" value="http://apps.qaplanet.in/qahrm/login.php"/>
+    <parameter name="strPassword" value="user1"/>
+    <classes>
+      <class name="parameterPassing.ParameterPassing">
+        <methods>
+          <include name="testParameterPassing"/>
+        </methods>
+      </class> <!-- parameterPassing.ParameterPassing -->
+    </classes>
+  </test> <!-- passing parameter(failed) -->
+</suite> <!-- Failed suite [OrangeHrm] -->

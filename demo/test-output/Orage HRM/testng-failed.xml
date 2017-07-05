@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Orage HRM]" parallel="classes">
+  <test name="Orange Hrm Test(failed)" parallel="classes">
+    <classes>
+      <class name="lTestScript.OrangeHRMTestCase3">
+        <methods>
+          <include name="pimEditEmployee"/>
+        </methods>
+      </class> <!-- lTestScript.OrangeHRMTestCase3 -->
+    </classes>
+  </test> <!-- Orange Hrm Test(failed) -->
+</suite> <!-- Failed suite [Orage HRM] -->

@@ -1,0 +1,11 @@
+<suite name="OrangeHrm">
+<test name="passing parameter">
+<parameter name="strURL" value="http://apps.qaplanet.in/qahrm/login.php"/>
+<parameter name="strUserName" value="qaplanet1"/>
+<parameter name="strPassword" value="user1"/>
+<classes>
+<class name="parameterPassing.ParameterPassing"/>
+</classes>
+</test>
+</suite>
+

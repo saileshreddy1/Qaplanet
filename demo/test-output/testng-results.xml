@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27135" started-at="2017-07-05T05:36:49Z" finished-at="2017-07-05T05:37:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27135" started-at="2017-07-05T05:36:49Z" finished-at="2017-07-05T05:37:16Z">
+      <class name="apachiPOIExcel.FlipCartUsing">
+        <test-method status="PASS" signature="startDriverser()[pri:0, instance:apachiPOIExcel.FlipCartUsing@eff760]" name="startDriverser" is-config="true" duration-ms="11108" started-at="2017-07-05T11:06:49Z" finished-at="2017-07-05T11:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriverser -->
+        <test-method status="PASS" signature="getTextFromFlipCartAndStroreInExcel()[pri:0, instance:apachiPOIExcel.FlipCartUsing@eff760]" name="getTextFromFlipCartAndStroreInExcel" duration-ms="15964" started-at="2017-07-05T11:07:01Z" finished-at="2017-07-05T11:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTextFromFlipCartAndStroreInExcel -->
+      </class> <!-- apachiPOIExcel.FlipCartUsing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

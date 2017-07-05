@@ -1,0 +1,9 @@
+<suite name="Orage HRM" parallel="classes" thread-count="10">
+<test name="Orange Hrm Test">
+<classes>
+<class name="lTestScript.OrangeHrmTestCase1"/>
+<class name="lTestScript.OrangeHrmTestCase2"/>
+<class name="lTestScript.OrangeHRMTestCase3"/>
+</classes>
+</test>
+</suite>
