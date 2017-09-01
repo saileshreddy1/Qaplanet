@@ -3,10 +3,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="E:/JACOB/jacob-1.18/jacob-1.18/jacob.jar"/>
-	<classpathentry kind="lib" path="E:/AutoItX4Java.jar"/>
 	<classpathentry kind="lib" path="E:/sukuli/sikulix.jar"/>
 	<classpathentry kind="lib" path="D:/tet/Selenium_Demp/jxl-2.6.12.jar/jxl-2.6.12.jar"/>
-	<classpathentry kind="lib" path="D:/tet/Selenium_Demp/selenium-server-standalone-3.4.0.jar"/>
 	<classpathentry kind="lib" path="D:/tet/Selenium_Demp/AutoItX4Java.jar"/>
 	<classpathentry kind="lib" path="D:/tet/Selenium_Demp/testng-6.8.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/poi-bin-3.16-20170419/poi-3.16/poi-3.16.jar"/>
@@ -22,5 +20,6 @@
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/poi-bin-3.16-20170419/poi-3.16/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/poi-bin-3.16-20170419/poi-3.16/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/poi-bin-3.16-20170419/poi-3.16/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/tet/Selenium_Demp/selenium-server-standalone-2.53.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

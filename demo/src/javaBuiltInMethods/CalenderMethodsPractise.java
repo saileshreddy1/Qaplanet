@@ -36,10 +36,6 @@ public class CalenderMethodsPractise {
 				
 		System.out.println(iHours+":"+iMinute+":"+iSeconds+":"+iMilliSeconds);
 		
-		
-		
-		
-
 	}
 
 }

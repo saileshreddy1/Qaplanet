@@ -11,10 +11,10 @@ public class FactorialDecremental {
 		for (int i = x; i>=1; i--) 
 		{
 			fact=fact*i;
-			System.out.println(fact);
+			
 			
 		}
-		
+		System.out.println(fact);
 	}
 
 }

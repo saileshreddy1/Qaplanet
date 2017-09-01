@@ -137,6 +137,18 @@ public class OrangeHrmTestCase3 {
 			
 		}
 		
+		
+		for (int i = 0; i <objAdminInnerOptions.size(); i++) 
+		{
+			
+			if (objAdminInnerOptions.get(i).isDisplayed()) 
+			{
+				System.out.println(objAdminInnerOptions.get(i).getText()+" links are displayed");
+				
+			}
+			
+		}
+		
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='Company Info']")));
 		WebElement objCompanyInfo=Driver.findElement(By.xpath("//span[text()='Company Info']"));
 		action.moveToElement(objCompanyInfo).build().perform();
@@ -251,7 +263,6 @@ public class OrangeHrmTestCase3 {
 				System.out.println("Alert present");
 				
 				alert.accept();
-				
 			}
 			else
 			{

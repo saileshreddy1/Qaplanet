@@ -11,7 +11,7 @@ public class MultipleWindowHandle {
 	public static void main(String[] args) throws InterruptedException {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Downloads\\drivers\\chromedriver_win32\\chromedriver.exe");
 		ChromeDriver Driver=new ChromeDriver();
 		Driver.manage().window().maximize();
 		String sUrl="http://qaplanet.in/";
@@ -65,6 +65,7 @@ public class MultipleWindowHandle {
 		
 		//Execute code
 		Thread.sleep(2000);		
+		
 		//---------------------------------------------
 		Driver.close();
 		Driver.quit();

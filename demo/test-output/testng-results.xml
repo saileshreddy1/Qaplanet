@@ -1,21 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27135" started-at="2017-07-05T05:36:49Z" finished-at="2017-07-05T05:37:16Z">
+  <suite name="Default suite" duration-ms="12740" started-at="2017-09-01T12:36:39Z" finished-at="2017-09-01T12:36:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27135" started-at="2017-07-05T05:36:49Z" finished-at="2017-07-05T05:37:16Z">
-      <class name="apachiPOIExcel.FlipCartUsing">
-        <test-method status="PASS" signature="startDriverser()[pri:0, instance:apachiPOIExcel.FlipCartUsing@eff760]" name="startDriverser" is-config="true" duration-ms="11108" started-at="2017-07-05T11:06:49Z" finished-at="2017-07-05T11:07:01Z">
+    <test name="Default test" duration-ms="12740" started-at="2017-09-01T12:36:39Z" finished-at="2017-09-01T12:36:52Z">
+      <class name="multipleWindowHandle.Method2MultipleWindowHandle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:multipleWindowHandle.Method2MultipleWindowHandle@c4c815]" name="setUp" is-config="true" duration-ms="8386" started-at="2017-09-01T18:06:39Z" finished-at="2017-09-01T18:06:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startDriverser -->
-        <test-method status="PASS" signature="getTextFromFlipCartAndStroreInExcel()[pri:0, instance:apachiPOIExcel.FlipCartUsing@eff760]" name="getTextFromFlipCartAndStroreInExcel" duration-ms="15964" started-at="2017-07-05T11:07:01Z" finished-at="2017-07-05T11:07:16Z">
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="multipleWindowTest()[pri:0, instance:multipleWindowHandle.Method2MultipleWindowHandle@c4c815]" name="multipleWindowTest" duration-ms="4335" started-at="2017-09-01T18:06:48Z" finished-at="2017-09-01T18:06:52Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='minimal-util-nav']/ul/li[1]/a"}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'qaplanet38', ip: '192.168.0.123', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir1012_1605}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8cb7ff3b5f4d1dd29014ac15b7fde217
+*** Element info: {Using=xpath, value=//*[@id='minimal-util-nav']/ul/li[1]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='minimal-util-nav']/ul/li[1]/a"}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'qaplanet38', ip: '192.168.0.123', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir1012_1605}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8cb7ff3b5f4d1dd29014ac15b7fde217
+*** Element info: {Using=xpath, value=//*[@id='minimal-util-nav']/ul/li[1]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at multipleWindowHandle.Method2MultipleWindowHandle.switchWindow(Method2MultipleWindowHandle.java:58)
+	at multipleWindowHandle.Method2MultipleWindowHandle.multipleWindowTest(Method2MultipleWindowHandle.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTextFromFlipCartAndStroreInExcel -->
-      </class> <!-- apachiPOIExcel.FlipCartUsing -->
+        </test-method> <!-- multipleWindowTest -->
+      </class> <!-- multipleWindowHandle.Method2MultipleWindowHandle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,6 +3,7 @@ import java.util.List;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -12,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class OrangeHRMTestCase2 {
 
 	public static void main(String[] args) throws InterruptedException {
-		
+				
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		ChromeDriver Driver=new ChromeDriver();
 		Driver.manage().window().maximize();
@@ -37,6 +38,8 @@ public class OrangeHRMTestCase2 {
 		WebElement objPWD=Driver.findElement(By.name("txtPassword"));
 		WebElement objLOGIN=Driver.findElement(By.name("Submit"));
 		WebElement objCLEAR=Driver.findElement(By.name("clear"));
+		
+	
 		
 		if (objUN.isDisplayed() && objPWD.isDisplayed() && objLOGIN.isDisplayed() && objCLEAR.isDisplayed()) 
 		{
@@ -236,7 +239,9 @@ public class OrangeHRMTestCase2 {
 				}
 			
 			}
-			//editemp
+//			
+//	edit Employee
+//			
 			wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//table[@class='data-table']/tbody/tr")));
 			int iRc1=Driver.findElements(By.xpath("//table[@class='data-table']/tbody/tr")).size();
 			for(int i=1; i<=iRc1; i++)

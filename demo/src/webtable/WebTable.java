@@ -83,7 +83,7 @@ public class WebTable {
 		System.out.println("");
 	
 		
-														//*[@id="idCourse"]
+														
 		
 		WebElement objBlock=Driver.findElement(By.xpath("//table[@id='idCourse']"));
 		List<WebElement> rows=objBlock.findElements(By.tagName("tr"));
