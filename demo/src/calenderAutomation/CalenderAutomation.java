@@ -25,10 +25,7 @@ public class CalenderAutomation {
 		Driver.findElement(By.id("ctl00_mainContent_txt_Fromdate")).click();
 		
 		
-//		Driver.findElement(By.xpath("//*[@id='ControlGroupSearchView_AvailabilitySearchInputSearchView_OneWay']")).click();
-//		Driver.findElement(By.xpath("//*[@id='ControlGroupSearchView_AvailabilitySearchInputSearchVieworiginStation1']/option[@value='IXA']")).click();
-//		Driver.findElement(By.xpath("//*[@id='ControlGroupSearchView_AvailabilitySearchInputSearchViewdestinationStation1']/option[@value='BLR']" )).click();;
-//		Driver.findElement(By.className("ui-datepicker-trigger")).click();
+		
 		
 		String doj="14/08/2018";
 		
